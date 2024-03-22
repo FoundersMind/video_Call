@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+        <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+
+    </head>
+    <body>
+        <h1>Receiver - WebRTC Video Calling</h1>
+            <input placeholder="Enter username..."
+                    type="text"
+                    id="username-input" /><br>
+            <button onclick="joinCall()" id="join-call-button">Join Call</button>
+            <button onclick="endCall()">End Call</button> <!-- Keep this button visible -->
+       
+        <div id="video-call-div">
+            <h2>Local</h2>
+            <video muted id="local-video" autoplay></video>
+            <h2>Remote</h2>
+            <video id="remote-video" autoplay></video>
+            <div class="call-action-div">
+                <button onclick="muteVideo()">receiver Mute Video</button>
+                <button onclick="muteAudio()">receiver Mute Audio</button>
+            </div>
+        </div>
+        
+        <script src="receiver.js"></script>
+        
+    </body>
+
+</html>
