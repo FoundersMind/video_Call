@@ -108,4 +108,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - Njbhandari4@gmail.com
 
-Project Link: [https://github.com/Sakhtiman/video_testing](https://github.com/Sakhtiman/video_testing)
+Project Link: [https://github.com/Sakhtiman/video_call](https://github.com/Sakhtiman/video_call)
